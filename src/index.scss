@@ -1,0 +1,15 @@
+@import 'utils';
+@import 'typography';
+@import 'reset';
+
+html {
+  scroll-behavior: smooth;
+  cursor: url('../public/img/cursor/сursor-mouse-mice.svg'), auto;
+}
+
+body {
+  font-family: Mont, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  background: $c-HoverBG;
+  color: $c-Primary;
+}
